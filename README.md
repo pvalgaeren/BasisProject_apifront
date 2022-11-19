@@ -8,5 +8,5 @@ Zelf kan je natuurlijk ook nog wat gerechten toevoegen, dit is natuurlijk handig
 
 ## Links
 - Link naar hosted API:
-- Link naar back-end Github: https://github.com/pvalgaeren/BasisProject_API_back 
+- Link naar back-end Github: https://github.com/pvalgaeren/api_back 
 - Link naar hosted back-end:
