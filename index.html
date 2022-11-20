@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <script defer src="https://unpkg.com/alpinejs@3.5.0/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="CSS/index.css">
     <title>Food API</title>
@@ -37,6 +37,51 @@
     </div>
   </div>
 </div>
+
+    
+    
+    
+    <!-- Poging tot AlpineJS -->
+
+<!-- script om het menu te displayen via het get commando in de code-->
+    <!--
+  <script type="text/javascript">
+    function displaymenu() {
+      return {
+        displaymenu: "0",
+        menu: null,
+        fetchMenu() {
+          fetch(`OktetocloudURL${this.displaymenu}`)
+            .then((res) => res.json())
+            .then((data) => {
+              this.menu = data;
+              window.menu = this.menu.id;
+            });
+        },
+      };
+    }
+  </script>
+-->
+<!-- script om een random dish te tonen via het get commando in de code-->
+    <!--
+  <script type="text/javascript">
+    function randomdish() {
+      return {
+        randomdish: "0",
+        menu: null,
+        fetchDish() {
+          fetch(`OktetocloudURL${this.randomdish}`)
+            .then((res) => res.json())
+            .then((data) => {
+              this.menu = data;
+              window.menu = this.menu.id;
+            });
+        },q
+      };
+    }
+  </script>
+    -->
+
 
 </body>
 </html>
