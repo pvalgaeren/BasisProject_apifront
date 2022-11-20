@@ -7,16 +7,22 @@ background-size:50px 50px;
 }
 
 body{
-    background-color: white;
+    background-color: floralwhite;
 
 }
 h1{
     text-align: center;
 }
 .card-group{
-    display: flex;
     margin: auto;
+}
 
+.card{
+    display: flex;
+}
+
+.card-body{
+    margin: auto;
 }
 
 img{
