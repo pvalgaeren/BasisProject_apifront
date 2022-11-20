@@ -10,3 +10,8 @@ Zelf kan je natuurlijk ook nog wat gerechten toevoegen, dit is natuurlijk handig
 - Link naar hosted API:
 - Link naar back-end Github: https://github.com/pvalgaeren/api_back 
 - Link naar hosted back-end:
+
+
+## Foto van mijn website
+![image](https://user-images.githubusercontent.com/91118410/202913299-5a523189-43ea-468b-8160-338fca3faf8a.png)
+
