@@ -2,7 +2,11 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/index.css">
     <title>Food API</title>
 </head>
@@ -11,13 +15,15 @@
         Food generator
     </h1>
 
+
+
     <div class="card-group">
   <div class="card">
     <img src="pexels-jona-128424.jpg" class="card-img-top" alt="menu">
     <div class="card-body">
       <h5 class="card-title">Menu</h5>
       <p class="card-text">Via deze knop kan je de gehele menu zien met nog wat extra infromatie bij elk gerecht.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <button type="button" class="btn btn-danger">Get menu</button>
     </div>
   </div>
   <div class="card">
@@ -25,7 +31,7 @@
     <div class="card-body">
       <h5 class="card-title">Dish</h5>
       <p class="card-text">Via deze knop krijg je een willekeurig gerecht toegewezen voor wanneer je niet kan kiezen wat te eten.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <button type="button" class="btn btn-danger">Get dish</button>
     </div>
   </div>
   <div class="card">
@@ -33,15 +39,11 @@
     <div class="card-body">
       <h5 class="card-title">New dish</h5>
       <p class="card-text">Via deze knop kan je zelf nog een gerecht toevoegen aan het menu. </p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <button type="button" class="btn btn-danger">Post new dish</button>
     </div>
   </div>
 </div>
 
-    
-    
-    
-    <!-- Poging tot AlpineJS -->
 
 <!-- script om het menu te displayen via het get commando in de code-->
     <!--
@@ -81,6 +83,8 @@
     }
   </script>
     -->
+
+
 
 
 </body>
